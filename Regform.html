@@ -1,0 +1,127 @@
+<!DOCTYPE>
+<html>
+
+<head>
+
+    <title>Registration Form</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>Student Registration Form</h1>
+        <p id="font">Fill out the form carefully for registration</p>
+    </div>
+
+
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <form action="#">
+            <div class="name1">
+                <label for="firstname">First Name: &ThickSpace;</label>
+                <input type="text" name="firstname" id="firstname">
+
+
+                <label for="middlename">&ThickSpace;&ThickSpace; Middle Name: &ThickSpace;</label>
+                <input type="text" name="middlename" id="middlename">
+
+
+                <label for="lastname">&ThickSpace;&ThickSpace; Last Name: &ThickSpace;</label>
+                <input type="text" name="lastname" id="lastname"> <br>
+            </div>
+            </div>
+
+            <div><label for="dbirth">Date of Birth: &ThickSpace;</label>
+                <input type="date" name="dbirth" id="dbirth"> <br>
+            </div>
+
+            <div><label for="email">Student Email: </label>
+                <input type="email" name="email" id="email" placeholder="example@abc.com"> <br>
+            </div>
+
+            <div><label for="password">Password: &ThickSpace;</label>
+                <input type="password" name="password" id="password" placeholder="password"> <br>
+            </div>
+
+            <div><label for="age">Age: </label>
+                <input type="number" name="age" id="age" min="2" max="30"> <br>
+            </div>
+
+            <div class="flex-container">
+                <label for="gender">Gender:</label>
+                <div class="radio">
+                    <input type="radio" name="gender" id="gender" value="male">Male &ThickSpace;&ThickSpace;
+                    <input type="radio" name="gender" id="gender" value="female">Female &ThickSpace;&ThickSpace;
+                    <input type="radio" id="gender" name="gender" value="others">Others <br>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <label for="hobby">Hobby:</label>
+                <div class="hobby">
+                    <div class="gog">
+                        <input type="checkbox" name="cricket" id="cricket" value="cricket">
+                        <label for="cricket">Cricket &ThickSpace;&ThickSpace;</label>
+                        <input type="checkbox" name="football" id="football" id="football">
+                        <label for="football">Football &ThickSpace;&ThickSpace;</label>
+                        <input type="checkbox" name="dancing" id="dancing" value="dancing">
+                        <label for="dancing">Dancing &ThickSpace;&ThickSpace;</label>
+                        <input type="checkbox" name="singing" id="singing" value="singing">
+                        <label for="singing">Singing &ThickSpace;&ThickSpace;</label>
+                        <input type="checkbox" name="drawing" id="drawing" value="drawing">
+                        <label for="drawing">Drawing &ThickSpace;&ThickSpace;</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="others" id="others">
+                        <label for="checkbox">Others &ThickSpace;</label>
+                        <input type="text" name="other" id="texts" placeholder="Eg. Teaching">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>Address:<textarea name="address" id="address" cols="100" rows="8" style="margin-top: 20px;"></textarea>
+                <br>
+            </div>
+
+            <div><label for="city">City: &ThickSpace;</label>
+                <input type="text" name="city" id="city">
+            </div>
+
+            <div><label for="state">State: &ThickSpace;</label>
+                <input type="text" name="state" id="state">
+            </div>
+
+            <div>
+                <label for="country">Country: &ThickSpace;</label>
+                <input type="text" name="country" id="country">
+            </div>
+
+            <div>
+                <label for="pincode">Postalcode / Zipcode: &ThickSpace;</label>
+                <input type="number" name="pincode" id="pincode">
+            </div>
+
+            <div>
+                <label for="file">Upload your certificate: </label>
+                <input type="file" name="file" id="file"> <br>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Submit" style="background-color: gray;">
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;
+                <input type="reset" value="Reset" style="background-color: gray;">
+            </div>
+
+
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
